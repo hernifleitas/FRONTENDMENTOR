@@ -4,7 +4,8 @@ let two = document.getElementById("two");
 let three = document.getElementById("three");
 let four = document.getElementById("four");
 let five = document.getElementById("five");
-let youSelected = document.getElementById("youSelected");
+let parrafo = document.getElementById("parrafo");
+num = 1
+numTwo = 5
 
-
-youSelected.innerHTML = "<div><p>You selected ${number}</p></div>"
+parrafo.innerHTML = `You selected ${num} of ${numTwo}`
