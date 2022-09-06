@@ -1,3 +1,9 @@
 # FRONTENDMENTOR.github.io
-FrontEndmentor.
-Ejercicio by FRONTENDMENTOR.com
+#EJERCICIO WEB frontEnd mentor.
+
+
+#Expectativa: https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI
+
+
+#Realidad: https://hernifleitas.github.io/FRONTENDMENTOR.github.io/
+#........: https://hernifleitas.github.io/FRONTENDMENTOR.github.io/thank.html
