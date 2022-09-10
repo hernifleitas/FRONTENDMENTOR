@@ -6,4 +6,4 @@
 
 
 #Realidad: https://hernifleitas.github.io/FRONTENDMENTOR.github.io/
-#........: https://hernifleitas.github.io/FRONTENDMENTOR.github.io/thank.html
+
