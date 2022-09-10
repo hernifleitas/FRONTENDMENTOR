@@ -1,11 +1,20 @@
 let submit = document.getElementById("submit");
-let one = document.getElementById("one");
-let two = document.getElementById("two");
-let three = document.getElementById("three");
-let four = document.getElementById("four");
-let five = document.getElementById("five");
-let parrafo = document.getElementById("parrafo");
-num = 1
-numTwo = 5
+let parrafo = document.getElementById("parrafo" );
+let container = document.getElementById("container");
+let thankContainer = document.getElementById("thankContainer");
+let res = 0
 
-parrafo.innerHTML = `You selected ${num} of ${numTwo}`
+let options = document.querySelectorAll(".btn");
+
+options.forEach((option) => {
+    option.addEventListener("click", ()=>{
+        res = option.value;
+    })
+})
+
+submit.addEventListener("click", ()=>{
+    parrafo.innerHTML = `You selected ${res} of 5 `
+    container.style.display = "none";
+    thankContainer.style.display = "flex"
+})
+

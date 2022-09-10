@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     height: 350px;
@@ -81,12 +81,13 @@ button:hover {
 }
 
 .thankContainer{
-    width: 350px;
-    margin-left: 400px;
-    height: 45vh;
-    display: flex;
+    width: 370px;
+    margin-bottom: 150px;
+    margin-right: 100px;
+    height: 67vh;
+    display: none;
     background-color: rgba(128, 128, 128, 0.158);
-    border-radius: 20px;
+    border-radius: 30px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
